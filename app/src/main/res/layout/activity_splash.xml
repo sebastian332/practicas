@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hotell"
+    android:layout_height="match_parent"
+    tools:context=".splash">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+             <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            android:gravity="center_horizontal"
+            android:text="@string/reserva_ya"
+            android:layout_marginLeft="30dp"
+            android:textColor="@android:color/white"
+            android:textSize="60dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:onClick="acercade"
+            android:layout_marginTop="500dp"
+            android:background="#25359902"
+            android:gravity="center"
+
+            android:text="Acerca de..."
+            android:textColor="@android:color/background_dark"
+            android:textSize="60dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:background="#25359902"
+        android:gravity="center"
+            android:text="Inicio"
+                        android:textColor="@android:color/background_dark"
+            android:textSize="60dp"
+            android:textStyle="bold"></TextView>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
